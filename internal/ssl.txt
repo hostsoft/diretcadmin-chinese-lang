@@ -30,3 +30,10 @@
 30=无法生成 %s: %s
 31=域名 %s 数字证书自动续签出错
 32=%s 自动证书续期已成功!
+33=脚本输出
+34=必须在directadmin.conf里设置为letsencrypt=1 ,当前 letsencrypt=%d .
+35=Let's Encrypt证书项
+36=选择
+37=LetsEncrypt 请求变量 '%s' 是无效的.
+38=必须至少选择一个域名.
+39=必须包含域名 %s 在证书项里.
