@@ -569,3 +569,6 @@
 569=%s 已经删除
 570=Cookie 已经清理
 571=发送邮件
+572=%s保存 NameServer%s
+573=Nameservers 保存错误
+574=Nameservers 已经更改
