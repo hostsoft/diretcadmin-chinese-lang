@@ -5,7 +5,7 @@
 我们会一直与官方同步
 ### 当前版本
 * DirectAdmin 最新软件 版本  1.5.1
-* DirectAdmin 中文语言 版本  1.5.1
+* DirectAdmin 中文语言 版本  1.5.1  
 最后更新 2016/06/14
 
 ### 安装教程1 Git方式
@@ -22,10 +22,10 @@ perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/use
 ```sh
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
 cd /usr/local/directadmin/data/skins/enhanced/lang
-wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/1.5.0.zip
-unzip 1.5.0.zip
-rm -rf 1.5.0.zip
-mv diretcadmin-chinese-lang-1.5.0 cn
+wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/1.501.zip
+unzip 1.501.zip
+rm -rf 1.501.zip
+mv diretcadmin-chinese-lang-1.501 cn
 chown diradmin:diradmin -R cn
 perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
 ```
