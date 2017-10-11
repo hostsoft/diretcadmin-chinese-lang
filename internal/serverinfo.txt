@@ -47,3 +47,5 @@
 47=详情
 48=提供值无效. 提供一个IP或者一个IP段/域名或者泛域名 (*.domain.com)<br><a target=_blank href='http://www.directadmin.com/features.php?id=1252'>更多信息</a>
 49=已屏蔽
+50=user_brutecount 关闭
+51=已停止

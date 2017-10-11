@@ -112,3 +112,14 @@
 112=您无法删除自己的账号 (%s)
 113=ns1或者ns2不是有效的NS服务器格式
 114=没有需要更改的
+115=User
+116=Reseller
+117=Admin
+118=E-Mail
+119=FTP
+120=Database
+121=Invalid E-Mail
+122=Domain is not in your list
+123=E-Mail account already exists
+124=Invalid Subdomain
+125=Subdomain already exists
