@@ -572,3 +572,5 @@
 572=%s保存 NameServer%s
 573=Nameservers 保存错误
 574=Nameservers 已经更改
+575=LetsEncrypt 相关文件已经清理
+576=LetsEncrypt 相关文件清理失败
