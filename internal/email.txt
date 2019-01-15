@@ -208,4 +208,12 @@
 208=%s 不是一个有效的 exim 数据.
 209=分
 210=时
-211=清除
+211=推送
+212=上次登陆: %s
+213=上次登陆IP: %s
+214=密码已更改: %s
+215=更改IP: %s
+216=Forwarder %s@%s deleted as it had zero recipients remaining.
+217=Forwarder %s cannot point to itself
+218=Forwarder contains a local_part_suffix character: '%s' meaning everything after it will be ignored and the forwarder will never match.
+219=写入错误 %s

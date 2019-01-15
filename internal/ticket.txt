@@ -56,3 +56,4 @@
 56=无效的 delete_messages_days 或 delete_tickets_days，最大值不能超过Max = 
 57=无法读取工单配置文件
 58=无法保存工单配置
+59=脚本输出

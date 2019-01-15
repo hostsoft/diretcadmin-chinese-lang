@@ -1,4 +1,5 @@
-# DirectAdmin 最新版 中文语言包
+# DirectAdmin 最新版 中文语言包  
+  
 我们从2007年开始提供DirectAdmin授权相关的服务  
 语言包均为原创翻译  
 原本仅提供给我们授权的客户内部使用的, 现在免费提供给公众客户使用
@@ -8,10 +9,11 @@
 
 
 ## 当前版本
-* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.53`  系列
-* DirectAdmin 中文语言 版本  1.53 系列
+* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.55`  系列
+* DirectAdmin 中文语言 版本  1.55 系列
+
 我们会一直与官方同步  
-最后更新 2018/03/21  
+最后更新 2019/01/15  
 
 ## 安装教程1 Git方式
 ```sh

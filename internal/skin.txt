@@ -37,3 +37,7 @@
 37=Write error with %s: %s
 38=Read error with %s: %s
 39=Error removing %s: %s"
+40=Uploaded %s value is not valid json
+41=Set Global
+42=Cannot delete the skin you're currently using.
+43=Click for more information

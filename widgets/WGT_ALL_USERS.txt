@@ -1,2 +1,2 @@
 TITLE=所有用户
-DESCRIPTION=服务器所有账户
+DESCRIPTION=本服务器的所有用户账户
