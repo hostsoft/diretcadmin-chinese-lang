@@ -14,7 +14,9 @@
 
 我们会一直与官方同步  
 最后更新 2019/01/15  
-
+  
+ ![](directadmin.png)
+  
 ## 安装教程1 Git方式
 ```sh
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
