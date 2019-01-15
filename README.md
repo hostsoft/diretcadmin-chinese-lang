@@ -32,10 +32,11 @@ perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/use
 ```sh
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
 cd /usr/local/directadmin/data/skins/enhanced/lang
-wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/1.53.zip
-unzip 1.53.zip
-rm -rf 1.53.zip
-mv diretcadmin-chinese-lang-1.53 cn
+da_langver=1.55
+wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/${da_langver}.zip
+unzip ${da_langver}.zip
+rm -rf ${da_langver}.zip
+mv diretcadmin-chinese-lang-${da_langver} cn
 chown diradmin:diradmin -R cn
 perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
 ```
