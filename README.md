@@ -1,14 +1,5 @@
 
-# We are try package wait update
-# 暂时请勿使用,项目更新中 
-
- - Don't use at this times 
- - 
-
-
-
-
-# DirectAdmin 最新版 中文语言包  
+# DirectAdmin Enhanced/Evolution 简体中文语言包
   
 我们从2007年开始提供DirectAdmin授权相关的服务  
 语言包均为原创翻译  
@@ -19,11 +10,11 @@
 
 
 ## 当前版本
-* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.55`  系列
-* DirectAdmin 中文语言 版本  1.55 系列
+* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.604`  系列
+* DirectAdmin 中文语言 版本  1.604 系列
 
 我们会一直与官方同步  
-最后更新 2019/01/15  
+最后更新 2020/05/13 
   
  ![](directadmin.png)
 
@@ -51,19 +42,6 @@ chown diradmin:diradmin -R cn
 perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
 ```
 
-
-## DiretcAdmin Chinese Language Pack by Hostsoft.cn
-
-Current began offering free, All are original translation by us  
-how to install?  
-
-```sh
-rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
-cd /usr/local/directadmin/data/skins/enhanced/lang/
-git clone https://github.com/ninetian/diretcadmin-chinese-lang cn
-chown diradmin:diradmin -R cn
-perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
-```
 
 
 

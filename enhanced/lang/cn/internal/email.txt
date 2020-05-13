@@ -213,7 +213,24 @@
 213=上次登陆IP: %s
 214=密码已更改: %s
 215=更改IP: %s
-216=Forwarder %s@%s deleted as it had zero recipients remaining.
-217=Forwarder %s cannot point to itself
-218=Forwarder contains a local_part_suffix character: '%s' meaning everything after it will be ignored and the forwarder will never match.
+216=Forwarder %s@%s 被删除，因为它的收件人为零。
+217=Forwarder %s 不能指向自己.
+218=Forwarder 包含了一个local_part_suffix字符：'%s'，这意味着它之后的所有内容都将被忽略，而转发器永远不会匹配。
 219=写入错误 %s
+220=禁用DKIM
+221=启用DKIM
+222=那不是你的域名
+223=一键登录要求不支持webmail_link=%s , 请尝试webmail_link=roundcube。
+224=RoundCube缺少直接登录选项。请重新安装RoundCube。
+225=Webmail SSO
+226=你可以点击下面的E-Mail，以该用户的身份立即登录到%s，即使您不知道它们的密码。
+227=不能拥有无限的电子邮件配额
+228=电子邮件配额不得超过 %s
+229=默认
+330=Dovecot文件'%s'缺少数据。运行'./build dovecot_conf'
+331=你的账户 %s@%s 已经设置好了。在你的电子邮件程序中，使用
+332=用户名
+333=密码
+334=POP/IMAP服务器
+335=SMTP服务器
+336=端口
