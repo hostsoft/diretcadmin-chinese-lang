@@ -1,3 +1,13 @@
+
+# We are try package wait update
+# 暂时请勿使用,项目更新中 
+
+ - Don't use at this times 
+ - 
+
+
+
+
 # DirectAdmin 最新版 中文语言包  
   
 我们从2007年开始提供DirectAdmin授权相关的服务  
