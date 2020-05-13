@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+#: src/js/login/Login.vue:30
+msgid "← Back to the login page"
+msgstr "←返回到登录页面"
+
+#: src/js/login/components/two-step-auth.vue:29
+msgid "Authenticate"
+msgstr "验证"
+
+#: src/js/login/Login.vue:22
+msgid "Click Here"
+msgstr "点击此处"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:12
+msgid "Code from E-mail"
+msgstr "邮箱收到的代码"
+
+#: src/js/login/components/login-datetime.vue:3
+msgid "Computer or server time out of sync by %{ hours } hours."
+msgstr "计算机或服务器时间不同步, 时差 %{ hours } 小时。"
+
+#: src/js/login/components/remind-password-auth/send-message.vue:2
+msgid ""
+"Enter your Username and a confirmation link will be sent to your email "
+"account."
+msgstr "输入您的用户名，验证链接将发送到您的电子邮件帐户。"
+
+#: src/js/login/Login.vue:17
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#: src/js/login/components/standard-auth.vue:20
+#, fuzzy
+msgid "Hmm, login details do not seem to be correct. Please try again."
+msgstr "登陆信息似乎不正确。请重试。"
+
+#: src/js/login/components/language-selector.vue:7
+msgid "Language"
+msgstr "语言"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:3
+#, fuzzy
+msgid "Log In using your username and code from E-mail"
+msgstr "使用用户名及邮箱收到的代码登陆"
+
+#: src/js/login/components/auth-successful-message.vue:2
+msgid "Logged in..."
+msgstr "登陆成功..."
+
+#: src/js/login/components/login-header.vue:6
+#, fuzzy
+msgid "Manage your domains, databases & other server info."
+msgstr "管理域名，数据库，和其他服务器信息。"
+
+#: src/js/login/components/standard-auth.vue:11
+msgid "Password"
+msgstr "密码"
+
+#: src/js/login/components/standard-auth.vue:3
+msgid "Please enter username"
+msgstr "请输入用户名"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:26
+msgid "Request New Password"
+msgstr "申请新密码"
+
+#: src/js/login/components/remind-password-auth/send-message.vue:14
+#, fuzzy
+msgid "Send me a Link"
+msgstr "发送验证链接"
+
+#: src/js/login/components/standard-auth.vue:26
+msgid "Sign in to Account"
+msgstr "登录帐户"
+
+#: src/js/login/components/login-header.vue:3
+msgid "Start DirectAdmin"
+msgstr "启动DirectAdmin"
+
+#: src/js/login/components/security-question-auth.vue:13
+msgid "Submit Answer"
+msgstr "提交答案"
+
+#: src/js/login/components/two-step-auth.vue:16
+#, fuzzy
+msgid "Trust this device for %{ days } days"
+msgstr "信任此设备 %{ days } 天"
+
+#: src/js/login/components/two-step-auth.vue:3
+msgid "Two Step Authentication"
+msgstr "二步身份验证"
+
+#: src/js/login/components/remind-password-auth/send-code.vue:6
+#: src/js/login/components/remind-password-auth/send-message.vue:5
+msgid "Username"
+msgstr "用户名"

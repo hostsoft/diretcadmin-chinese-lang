@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: ./src/js/login/Login.vue:51
+msgid "← Back to the login page"
+msgstr ""
+
+#: ./src/js/login/components/two-step-auth.vue:35
+msgid "Authenticate"
+msgstr ""
+
+#: ./src/js/login/Login.vue:42
+msgid "Click here"
+msgstr ""
+
+#: ./src/js/login/components/send-code.vue:12
+msgid "Code from E-mail"
+msgstr ""
+
+#: ./src/js/login/components/login-datetime.vue:3
+msgid "Computer or server time out of sync by %{ hours } hours."
+msgstr ""
+
+#: ./src/js/login/components/send-message.vue:2
+msgid "Enter your Username and a confirmation link will be sent to your email account."
+msgstr ""
+
+#: ./src/js/login/Login.vue:36
+msgid "Forgot Password?"
+msgstr ""
+
+#: ./src/js/login/components/login-datetime.vue:12
+msgid "format:datetime"
+msgstr ""
+
+#: ./src/js/login/components/standard-auth.vue:27
+msgid "Hmm, login details do not seem to be correct. Please try again."
+msgstr ""
+
+#: ./src/js/login/components/language-selector.vue:7
+msgid "Language"
+msgstr ""
+
+#: ./src/js/login/components/send-code.vue:3
+msgid "Log In using your username and code from E-mail"
+msgstr ""
+
+#: ./src/js/login/components/loader.vue:20
+msgid "Logged in.."
+msgstr ""
+
+#: ./src/js/login/components/login-header.vue:6
+msgid "Manage your domains, databases & other server info."
+msgstr ""
+
+#: ./src/js/login/components/standard-auth.vue:17
+msgid "Password"
+msgstr ""
+
+#: ./src/js/login/components/standard-auth.vue:9
+msgid "Please enter username"
+msgstr ""
+
+#: ./src/js/login/components/send-code.vue:26
+msgid "Request New Password"
+msgstr ""
+
+#: ./src/js/login/components/send-message.vue:14
+msgid "Send me a Link"
+msgstr ""
+
+#: ./src/js/login/components/standard-auth.vue:39
+msgid "Sign in to Account"
+msgstr ""
+
+#: ./src/js/login/components/login-header.vue:3
+msgid "Start DirectAdmin"
+msgstr ""
+
+#: ./src/js/login/components/security-question-auth.vue:13
+msgid "Submit Answer"
+msgstr ""
+
+#: ./src/js/login/Login.vue:12
+msgid "This is a Trial License of DirectAdmin"
+msgstr ""
+
+#: ./src/js/login/components/two-step-auth.vue:16
+msgid "Trust this device for %{ days } days"
+msgstr ""
+
+#: ./src/js/login/components/two-step-auth.vue:3
+msgid "Two Step Authentication"
+msgstr ""
+
+#: ./src/js/login/components/send-code.vue:6
+#: ./src/js/login/components/send-message.vue:5
+msgid "Username"
+msgstr ""

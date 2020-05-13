@@ -1,0 +1,17 @@
+#### Lang-specific vars
+
+#DateTime format
+msgid "format:datetime"
+msgstr "yyyy-M-d HH:mm"
+
+#Date format
+msgid "format:date"
+msgstr "yyyy-M-d"
+
+#Week start
+msgid "format:weekStart"
+msgstr "monday"
+
+# Text Direction
+msgid "$direction"
+msgstr "ltr"
