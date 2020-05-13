@@ -19,9 +19,24 @@
  ![](directadmin.png)
 
   
-## 安装教程1 Git方式
+## 安装教程, Git方式
 ```sh
+
+安装明天写,太晚了......
+
+
+
+
+yum install -y git
+
+mkdir -p /usr/local/directadmin/data/skins/hostsoft
+cd /usr/local/directadmin/data/skins/hostsoft
+git clone https://github.com/hostsoft/diretcadmin-chinese-lang ./
+
+
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
+
+
 cd /usr/local/directadmin/data/skins/enhanced/lang/
 git clone https://github.com/ninetian/diretcadmin-chinese-lang cn
 chown diradmin:diradmin -R cn
