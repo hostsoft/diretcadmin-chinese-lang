@@ -64,7 +64,7 @@ msgstr "登陆成功..."
 
 #: src/js/login/components/login-header.vue:6
 msgid "Manage your domains, databases & other server info."
-msgstr "管理域名，数据库，和其他服务器信息."
+msgstr "轻松管理您的网站，数据库，和其他服务器以及软件功能."
 
 #: src/js/login/components/standard-auth.vue:17
 msgid "Password"
@@ -88,7 +88,7 @@ msgstr "登录帐户"
 
 #: src/js/login/components/login-header.vue:3
 msgid "Start DirectAdmin"
-msgstr "启动 DirectAdmin"
+msgstr "登陆 DirectAdmin"
 
 #: src/js/login/components/security-question-auth.vue:13
 msgid "Submit Answer"
