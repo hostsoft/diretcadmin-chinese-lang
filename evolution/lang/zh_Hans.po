@@ -37,16 +37,12 @@ msgid "( Today: %{ sent } )"
 msgstr "( 今日: %{ sent } )"
 
 #: src/js/components/local/user-domains.vue:24
-#, fuzzy
-#| msgid "Pointers"
 msgid "(pointers)"
 msgstr "域名指向"
 
 #: src/js/components/local/stats/webalizer-table.vue:68
-#, fuzzy
-#| msgid "{{bandwidth.limit | humanReadableSize}}"
 msgid "{{ bandwidth.limit | humanReadableSize }}"
-msgstr "{{bandwidth.limit | humanReadableSize}}"
+msgstr "{{ bandwidth.limit | humanReadableSize }}"
 
 #: src/js/pages/reseller/customize-skin/_components/category-draggable.vue:22
 msgid "{{ category.name }}"
@@ -75,8 +71,6 @@ msgstr "{{ label }}"
 
 #: src/js/components/local/main-menu/plugged-menu-category.vue:49
 #: src/js/components/local/main-menu/plugged-menu-category.vue:89
-#, fuzzy
-#| msgid "{{ category.name }}"
 msgid "{{category.name}}"
 msgstr "{{ category.name }}"
 
@@ -88,7 +82,7 @@ msgstr "*注意：修改MX记录可能会使所有电子邮件帐户无法接收
 
 #: src/js/pages/reseller/users/_components/change-sent-emails-daily-limit-dialog.vue:11
 msgid "/ Day"
-msgstr "/天"
+msgstr "/ 天"
 
 #: src/js/pages/admin/stats.vue:78
 msgid "&nbsp;Database Disk Usage"
@@ -140,7 +134,7 @@ msgstr "MySQL数据库数量"
 
 #: src/js/pages/admin/stats.vue:108
 msgid "# of Resellers"
-msgstr "分销者数量"
+msgstr "代理商数量"
 
 #: src/js/pages/admin/stats.vue:129 src/js/pages/user/stats/index.vue:49
 #: src/js/pages/admin/users/resellers/_components/usage-table.vue:71
@@ -161,7 +155,6 @@ msgstr "用户数量"
 
 #: src/js/pages/admin/settings.vue:150 src/js/pages/admin/settings.vue:158
 #: src/js/pages/admin/settings.vue:155
-#, fuzzy
 msgid "% Disk Usage to create Backups."
 msgstr "%用于创建备份的磁盘使用率。"
 
@@ -214,7 +207,10 @@ msgstr "%{name}-digest"
 
 #: src/js/components/local/layouts/sidebar/aside.vue:25
 msgid "© %{ year } JBMC Software"
-msgstr "© %{ year } JBMC Software"
+msgstr ""
+"© %{ year } 加拿大 JBMC Software <a class=\"white\" href=\"http://www."
+"hostsoft.cn/hosting-control-panel/directadmin\" target=\"_blank\">主机软件(中"
+"国)</a>"
 
 #: src/js/pages/admin/users/resellers/create.vue:136
 msgid ""
@@ -622,8 +618,6 @@ msgstr "添加代码"
 
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:115
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:44
-#, fuzzy
-#| msgid "Destination:"
 msgid "Add Destination"
 msgstr "收信者"
 
@@ -996,7 +990,7 @@ msgstr "当前账号下的所有用户"
 
 #: src/js/pages/admin/cron-jobs.vue:1 src/js/modules/navigation/admin.js:170
 msgid "All User Cron Jobs"
-msgstr "所有用户Cron作业"
+msgstr "所有用户Cron任务"
 
 #: src/js/pages/reseller/customize-skin/_components/widgets-editor.vue:58
 msgid "all users"
@@ -1135,7 +1129,7 @@ msgstr "修改"
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:67
 msgid "Alter Routine"
-msgstr "Alter Routine"
+msgstr "改变程序"
 
 #: src/js/pages/user/stats/index.vue:195
 #: src/js/pages/admin/users/resellers/_components/info-table.vue:63
@@ -1213,30 +1207,27 @@ msgstr "添加在模板的最顶部，变量定义之前。"
 #: src/js/pages/admin/custom-httpd/customize.vue:172
 msgid ""
 "Appears in ALL context{} sections, used for password protected directories."
-msgstr ""
+msgstr "出现在所有上下文{}部分，用于密码保护的目录。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:159
-#, fuzzy
 msgid "Appears in ALL location / sections. Use the LOCATION token."
 msgstr "添加在所有 location / section 里面。使用 LOCATION Token。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:173
 msgid "Appears in phpIniOverride{} section."
-msgstr ""
+msgstr "出现在phpIniOverride{}部分。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:174
-#, fuzzy
-#| msgid "Appears just before the <Directory> section."
 msgid "Appears in rewrite{} section."
 msgstr "在 <Directory> section 上方。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:171
 msgid "Appears in scripthandler{} section."
-msgstr ""
+msgstr "出现在scripthandler{}部分。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:175
 msgid "Appears in vhssl{} section."
-msgstr ""
+msgstr "出现在vhssl{}部分。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:165
 msgid "Appears just before the <Directory> section."
@@ -1382,7 +1373,7 @@ msgstr "链接"
 #: src/js/components/local/app-global-modals/skin-options.vue:71
 #: src/js/components/local/app-global-modals/skin-options.vue:76
 msgid "Aside"
-msgstr ""
+msgstr "除此以外"
 
 #: src/js/pages/admin/ip-manager/_dialogs/assign-ip-dialog.vue:33
 #: src/js/pages/admin/ip-manager/index.vue:22
@@ -1556,7 +1547,6 @@ msgid "Available Version"
 msgstr "可用版本"
 
 #: src/js/pages/user/email/catch-all.vue:45
-#, fuzzy
 msgid ""
 "Avoid using the Ignore option unless you know what you are doing. Spammers "
 "will be sending you e-mails to random addresses, and this option will accept "
@@ -1682,15 +1672,15 @@ msgstr "流量 (MB)"
 #: src/js/pages/reseller/users/bandwidth.vue:1
 #: src/js/pages/user/bandwidth.vue:1
 msgid "Bandwidth Breakdown"
-msgstr "流量细分"
+msgstr "流量详情"
 
 #: src/js/pages/user/bandwidth.vue:12
 msgid "Bandwidth Breakdown for %{month} %{year}"
-msgstr "%{year} 年 %{month}% 月的流量细分"
+msgstr "%{month}% %{year} 流量详情"
 
 #: src/js/pages/reseller/users/bandwidth.vue:12
 msgid "Bandwidth Breakdown for %{user}: %{year} %{month}"
-msgstr "%{user}的%{year} 年 %{month}% 月流量细分"
+msgstr "%{user} : %{year}  %{month}% 流量详情"
 
 #: src/js/pages/admin/system-backup.vue:16
 #: src/js/pages/admin/system-backup.vue:20
@@ -1698,7 +1688,6 @@ msgid "Basic Configuration"
 msgstr "基本配置"
 
 #: src/js/pages/user/ssl/_components/certificate-request-dialog.vue:28
-#, fuzzy
 msgid ""
 "Be sure to copy and backup the \"RSA PRIVATE KEY\" along with the request. "
 "You will need it when installing the certificate. Because you're an admin, "
@@ -1719,21 +1708,17 @@ msgstr "财务问题"
 
 #: src/js/pages/admin/settings.vue:950 src/js/pages/admin/settings.vue:959
 msgid "bl_auth"
-msgstr ""
+msgstr "bl_auth"
 
 #: src/js/pages/admin/settings.vue:950 src/js/pages/admin/settings.vue:958
-#, fuzzy
-#| msgid "Description"
 msgid "bl_script"
 msgstr "描述"
 
 #: src/js/pages/admin/settings.vue:950 src/js/pages/admin/settings.vue:957
 msgid "bl_smtp"
-msgstr ""
+msgstr "bl_smtp"
 
 #: src/js/pages/admin/settings.vue:950 src/js/pages/admin/settings.vue:956
-#, fuzzy
-#| msgid "Username"
 msgid "bl_usernames"
 msgstr "用户名"
 
@@ -1912,7 +1897,7 @@ msgstr "CC地址"
 #: src/js/pages/user/email/autoresponders/modify.vue:109
 #: src/js/pages/user/email/autoresponders/modify.vue:70
 msgid "CC should not be equal to Autoresponder address"
-msgstr ""
+msgstr "CC不应等同于自动回复地址"
 
 #: src/js/pages/admin/ssl/_components/info-dialog.vue:31
 #: src/js/pages/user/ssl/_components/paste-cert-tab.vue:27
@@ -1958,7 +1943,7 @@ msgstr "CGI"
 #: src/js/pages/admin/reseller-packages/_components/reseller-package.vue:200
 #: src/js/pages/admin/users/resellers/modify.vue:224
 msgid "CGI Access"
-msgstr "CGI Access"
+msgstr "CGI权限"
 
 #: src/js/pages/user/stats/index.vue:195
 #: src/js/pages/reseller/users/_components/account-info.vue:297
@@ -2138,7 +2123,7 @@ msgstr "清除过滤器"
 #: src/js/pages/user/login-keys/create.vue:117
 #: src/js/pages/user/login-keys/modify.vue:80
 msgid "Clear Key:"
-msgstr ""
+msgstr "清理密匙:"
 
 #: src/js/pages/admin/brute-force-monitor/_components/clear-messages-dialog.vue:3
 #: src/js/pages/user/messages/_dialogs/clear-message-system-dialog.vue:3
@@ -2827,7 +2812,7 @@ msgstr "自定义项目"
 
 #: src/js/pages/admin/brute-force-monitor/index.vue:55
 msgid "Custom number of bytes from the end of the file"
-msgstr ""
+msgstr "从文件末尾的自定义字节数"
 
 #: src/js/pages/admin/backups/modify.vue:234
 #: src/js/pages/admin/backups/schedule.vue:291
@@ -3877,7 +3862,7 @@ msgstr "DS 记录"
 
 #: src/js/components/local/dns/edit-record-dialog.vue:86
 msgid "Due to advanced SPF record syntax, text-mode is used for SPF changes."
-msgstr ""
+msgstr "由于高级SPF记录语法的原因，SPF变化时使用了文本模式。"
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:3
 #: src/js/pages/reseller/backups/index.vue:20
@@ -3913,7 +3898,7 @@ msgstr "电子邮件"
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:122
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:51
 msgid "E-Mail"
-msgstr ""
+msgstr "Email地址"
 
 #: src/js/pages/reseller/tickets.vue:151
 #: src/js/pages/user/messages/_dialogs/message-system-options.vue:18
@@ -4193,7 +4178,7 @@ msgstr "清空剪贴板"
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:185
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:114
 msgid "Empty pipes are not allowed"
-msgstr ""
+msgstr "不允许使用空Pipes管道"
 
 #: src/js/pages/admin/settings.vue:119
 msgid ""
@@ -4336,11 +4321,11 @@ msgstr ""
 
 #: src/js/pages/user/plugins/_components/InvalidPluginBundle.vue:8
 msgid "Error loading %{ id } plugin: loaded bundle is not ES6 Module."
-msgstr ""
+msgstr "%{ id } 插件载入错误,因为不是ES6模块."
 
 #: src/js/pages/user/plugins/_components/ErrorLoading.vue:8
 msgid "Error loading %{ id } plugin."
-msgstr ""
+msgstr "%{ id } 插件载入错误."
 
 #: src/js/components/local/stats/webalizer-table.vue:132
 #: src/js/pages/user/subdomains/index.vue:70
@@ -4656,7 +4641,7 @@ msgstr "文件夹"
 
 #: src/js/pages/reseller/customize-skin/_components/logo-editor.vue:10
 msgid "For dark mode & sidebar layout"
-msgstr ""
+msgstr "用于黑暗模式和侧边栏布局"
 
 #: src/js/pages/admin/ip-manager/_dialogs/add-ip-dialog.vue:44
 msgid "For IPv6 IPs, use a /mask, eg: /64"
@@ -4694,7 +4679,7 @@ msgstr "force_ssl选项已更新"
 
 #: src/js/components/local/dns/dmarc-editor.vue:33
 msgid "Forensic Email (RUF)"
-msgstr ""
+msgstr "电子邮件（联检组）"
 
 #: src/js/pages/user/email/forwarders.vue:84
 msgid "forwarder"
@@ -4881,7 +4866,7 @@ msgstr "完整日志"
 
 #: src/js/components/local/app-global-modals/skin-reload-dialog.vue:11
 msgid "Full reload will be performed in %{ seconds } seconds"
-msgstr ""
+msgstr "完全重载将在 %{ seconds } 秒内执行"
 
 #: src/js/modules/widgets.js:55
 msgid "Full Server Statistics"
@@ -5054,7 +5039,7 @@ msgstr "小时自最后一次尝试。"
 
 #: src/js/pages/user/email/spamassassin.vue:230
 msgid "How should the spam be delivered?"
-msgstr ""
+msgstr "垃圾邮件应该如何投递？"
 
 #: src/js/pages/user/login-keys/index.vue:115
 msgid ""
@@ -5123,6 +5108,8 @@ msgid ""
 "If SMTP authentication is used, this will show the login name used. Scripts "
 "will show the owner of the script. Can be considered accurate."
 msgstr ""
+"如果使用了SMTP认证，这将显示使用的登录名。脚本将显示该脚本的所有者。可以认为"
+"是准确的."
 
 #: src/js/pages/user/email/usage/index.vue:210
 msgid ""
@@ -5130,6 +5117,8 @@ msgid ""
 "working directory the script was in. An email in the spool will have a path "
 "value of \"retry\" for each attempt."
 msgstr ""
+"如果邮件是由脚本生成的，路径值将显示脚本所在的工作目录。Spool中的邮件每次尝试"
+"都会有一个路径值为 \"retry\"."
 
 #: src/js/pages/admin/backups/restore.vue:208
 #: src/js/pages/reseller/backups/restore.vue:190
@@ -5141,6 +5130,8 @@ msgid ""
 "If this is set, it will show the IP that connect to the server. If no IP is "
 "set, then the email was sent vie a local script."
 msgstr ""
+"如果设置了这个，它将显示连接到服务器的IP。如果没有设置IP，那么邮件是通过本地"
+"脚本发送的。"
 
 #: src/js/pages/admin/backups/restore.vue:215
 msgid ""
@@ -5191,7 +5182,7 @@ msgstr "导入套餐"
 
 #: src/js/pages/user/email/accounts/index.vue:273
 msgid "In"
-msgstr ""
+msgstr "在"
 
 #: src/js/pages/admin/backups/index.vue:25
 #: src/js/pages/admin/backups/index.vue:34
@@ -5209,7 +5200,7 @@ msgstr "收件箱(请勿屏蔽)"
 #: src/js/components/local/dns/dmarc-editor.vue:38
 #: src/js/components/local/dns/dmarc-editor.vue:43
 msgid "Incident Object Description Exchange Format"
-msgstr ""
+msgstr "事件对象描述交换格式"
 
 #: src/js/components/local/dns/spf-editor.vue:140
 msgid "Include Domain"
@@ -5222,7 +5213,7 @@ msgstr "已包括"
 
 #: src/js/pages/user/email/usage/index.vue:70
 msgid "Incoming"
-msgstr ""
+msgstr "来信"
 
 #: src/js/pages/reseller/users/_components/additional-bandwidth-dialog.vue:26
 msgid "Increase Bandwidth"
@@ -5410,7 +5401,7 @@ msgstr "IP地址"
 
 #: src/js/components/local/dns/spf-editor.vue:55
 msgid "IP Addresses in CIDR format that deliver or relay mail for this domain"
-msgstr ""
+msgstr "以CIDR格式传递或中继此域邮件的IP地址"
 
 #: src/js/pages/admin/ip-manager/details.vue:1
 msgid "IP Details"
@@ -5625,7 +5616,7 @@ msgstr "已是最新版本的DirectAdmin"
 
 #: src/js/components/local/app-global-modals/skin-options.vue:23
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #: src/js/pages/admin/users/index.vue:266
 msgid "Leave DNS"
@@ -5747,7 +5738,7 @@ msgstr "Link一个IP到Apache会将这个IP额外添加到VitrualHost。"
 msgid ""
 "Linking an IP with DNS will duplicate the A/AAAA records for the current IP "
 "with the linked IP."
-msgstr ""
+msgstr "将IP与DNS链接将复制当前IP与链接IP的A/AAAA记录."
 
 #: src/js/pages/reseller/customize-skin/_components/change-default-menu-type-dialog.vue:7
 #: src/js/pages/reseller/customize-skin/_components/change-default-menu-type-dialog.vue:11
@@ -5949,8 +5940,6 @@ msgid "Login to phpMyAdmin"
 msgstr "登入phpMyAdmin"
 
 #: src/js/pages/user/email/accounts/index.vue:128
-#, fuzzy
-#| msgid "Login: %{ login}"
 msgid "Login: %{ login }"
 msgstr "登陆：%{ login }"
 
@@ -6791,29 +6780,25 @@ msgid "Normal"
 msgstr "正常"
 
 #: src/js/pages/admin/ssl/_components/info-dialog.vue:69
-#, fuzzy
-#| msgid "Valid After"
 msgid "Not After"
 msgstr "生效于此日期之后"
 
 #: src/js/pages/admin/ssl/_components/info-dialog.vue:64
 msgid "Not Before"
-msgstr ""
+msgstr "不早于"
 
 #: src/js/pages/reseller/users/view.vue:375
-#, fuzzy
-#| msgid "Valid After"
 msgid "Not defined"
 msgstr "生效于此日期之后"
 
 #: src/js/pages/reseller/customize-skin/_components/misc-options.vue:235
 msgid "Not forced (User Select)"
-msgstr ""
+msgstr "未强制（用户选择）"
 
 #: src/js/pages/user/email/spamassassin.vue:240
 msgid ""
 "Not using attachments will leave the spam unaltered except for spam headers."
-msgstr ""
+msgstr "不使用附件将使垃圾邮件保持不变，垃圾邮件头除外."
 
 #: src/js/pages/user/login-keys/index.vue:116
 msgid ""
@@ -6839,7 +6824,7 @@ msgstr ""
 msgid ""
 "Note: For older exim.pl files before version 13, each delivery attempt is "
 "counted, including retries."
-msgstr ""
+msgstr "注意：对于13版之前的旧版exim.pl文件，每次投递尝试都会被计算，包括重试."
 
 #: src/js/pages/user/email/filters.vue:87
 msgid ""
@@ -6850,6 +6835,12 @@ msgid ""
 "then block \" put \", with spaces beside it to\n"
 "avoid partial matching."
 msgstr ""
+"注意：单词过滤器匹配部分单词。对于\n"
+"例如，如果你把 \"put \"字和\n"
+"电子邮件中包含 \"computer\"，那么电子邮件将\n"
+"被拦截了。如果你指望它是自己的话。\n"
+"然后再加上 \" put\"，并在旁边加上空格，以表示\n"
+"避免部分匹配。"
 
 #: src/js/pages/user/email/filters.vue:140
 msgid ""
@@ -6860,6 +6851,12 @@ msgid ""
 "put \", with spaces beside it to avoid partial\n"
 "matching."
 msgstr ""
+"注意：单词过滤器匹配部分单词。对于\n"
+"例如，如果你把 \"put \"字和\n"
+"电子邮件中包含 \"computer\"，那么电子邮件将\n"
+"被拦截了。如果你指望它是自己的话。\n"
+"然后再加上 \"put \"，并在旁边加上空格，以表示\n"
+"避免部分匹配。"
 
 #: src/js/components/local/filemanager/search.vue:19
 msgid "Nothing found"
@@ -6879,7 +6876,7 @@ msgstr "已通知"
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:10
 msgid "Notify administrator account on certificate request failures"
-msgstr ""
+msgstr "在SSL证书申请失败时通知管理员账户"
 
 #: src/js/pages/admin/settings.vue:632
 msgid "Notify Admins after a User has"
@@ -6907,17 +6904,15 @@ msgstr ""
 msgid ""
 "Notify me on all incorrect codes entries. Disabling this option will still "
 "notify you after 5 failed attempts."
-msgstr ""
+msgstr "在所有错误的代码输入时通知我。在5次失败后，禁用此选项仍会通知您."
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:34
-#, fuzzy
-#| msgid "Create A Certificate Request"
 msgid "Notify user on certificate request success"
 msgstr "创建一个证书签名请求"
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:18
 msgid "Notify users on certificate request failures"
-msgstr ""
+msgstr "在SSL证书请求失败时通知用户"
 
 #: src/js/components/local/master-login-bar.vue:72
 #: src/js/components/local/master-login-drawer.vue:102
@@ -6925,7 +6920,7 @@ msgstr ""
 msgid ""
 "Notifying you that if you 'Login As' this account, you might be using a skin "
 "who's code under their control."
-msgstr ""
+msgstr "通知你，如果你 \"登录为 \"这个账号，你可能使用的是他们控制的风格."
 
 #: src/js/components/local/history/chart.vue:209
 #: src/js/components/local/history/table.vue:104
@@ -6953,7 +6948,7 @@ msgstr "NS2"
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:48
 msgid "Number of auto-renew certificate request failures before disabling it"
-msgstr ""
+msgstr "停用前自动更新证书请求失败的次数"
 
 #: src/js/pages/admin/log-viewer/index.vue:63
 msgid "Number of lines from the end"
@@ -7053,6 +7048,8 @@ msgid ""
 "One-Click login requires does not support webmail_link=%{ webmail_link }. "
 "Try webmail_link=roundcube"
 msgstr ""
+"一键登录要求不支持webmail_link=%{ webmail_link }。请尝试"
+"webmail_link=roundcube"
 
 #: src/js/pages/user/login-keys/create.vue:27
 msgid "One-Time Login URL"
@@ -7064,7 +7061,7 @@ msgstr "一次性登陆链接已创建"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:23
 msgid "Only add the few lines of the server code you need to insert."
-msgstr ""
+msgstr "只添加你需要插入的几行服务器代码。"
 
 #: src/js/pages/reseller/_dialogs/view-ticket.vue:41
 #: src/js/pages/reseller/tickets.vue:16 src/js/pages/reseller/tickets.vue:93
@@ -7129,11 +7126,11 @@ msgstr "其他"
 
 #: src/js/pages/user/email/accounts/index.vue:279
 msgid "Out"
-msgstr ""
+msgstr "出"
 
 #: src/js/pages/user/email/usage/index.vue:62
 msgid "Outgoing"
-msgstr ""
+msgstr "外向"
 
 #: src/js/pages/admin/dns/_components/override-ttl-dialog.vue:7
 #: src/js/pages/admin/dns/edit.vue:30
@@ -7388,12 +7385,12 @@ msgstr "PHP-FPM配置"
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:21
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:23
 msgid "php-fpm Global |CUSTOM1|"
-msgstr ""
+msgstr "php-fpm 全局 |CUSTOM1|"
 
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:21
 #: src/js/pages/admin/custom-httpd/php-fpm.vue:24
 msgid "php-fpm Global |CUSTOM2|"
-msgstr ""
+msgstr "php-fpm 全局 |CUSTOM2|"
 
 #: src/js/pages/phpmyadmin.vue:1 src/js/modules/navigation/admin.js:238
 #: src/js/modules/navigation/reseller.js:160
@@ -7418,7 +7415,7 @@ msgstr "PID"
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:123
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:52
 msgid "Pipe"
-msgstr ""
+msgstr "Pipe管道"
 
 #: src/js/components/local/dns/add-record-dialog.vue:81
 #: src/js/components/local/dns/add-record-dialog.vue:85
@@ -7459,7 +7456,7 @@ msgstr "插件"
 #: src/js/modules/navigation/reseller.js:166
 #: src/js/modules/navigation/user.js:254
 msgid "Plugins will be inserted after this entry"
-msgstr ""
+msgstr "插件将在此条目后插入"
 
 #: src/js/pages/reseller/users/_components/domains.vue:82
 #: src/js/pages/user/domain-pointers.vue:60
@@ -7651,11 +7648,11 @@ msgstr "清除文件夹"
 
 #: src/js/pages/user/email/lists/modify.vue:203
 msgid "Purge Received"
-msgstr ""
+msgstr "收到的清洗"
 
 #: src/js/pages/admin/settings.vue:921
 msgid "Purge Spambox / Trash data after (days)"
-msgstr ""
+msgstr "主动清理 Spambox / Trash data after (days)"
 
 #: src/js/pages/user/two-step-auth.vue:108
 msgid "QR Code"
@@ -7708,7 +7705,7 @@ msgstr "读取"
 
 #: src/js/pages/admin/backups/_components/monitor-backup-status-dialog.vue:143
 msgid "Reading from tracker stream..."
-msgstr ""
+msgstr "从跟踪流中读取....."
 
 #: src/js/components/local/suspend-user-dialog.vue:8
 msgid "Reason"
@@ -7770,7 +7767,7 @@ msgstr "重定向域名"
 
 #: src/js/pages/user/email/spamassassin.vue:51
 msgid "Redirect it to the catch-all spam folder in your main IMAP account"
-msgstr ""
+msgstr "将其重定向到您的主IMAP账户中的 \"垃圾文件夹\""
 
 #: src/js/components/local/app-global-modals/redirect-dialog.vue:25
 msgid "Redirect Now"
@@ -7791,11 +7788,11 @@ msgstr "重定向网址"
 
 #: src/js/components/local/app-global-modals/redirect-dialog.vue:11
 msgid "Redirecting to <b>%{ url }</b> after <b>%{ s }</b> seconds"
-msgstr ""
+msgstr "<b>%{ s }</b> 秒后 转向 <b>%{ url }</b>"
 
 #: src/js/pages/user/domains/edit.vue:83
 msgid "Redirection for domain, pointers, and sub-domains."
-msgstr ""
+msgstr "转向所有域名 (包含停靠和子域名)."
 
 #: src/js/pages/user/database/_dialogs/change-db-user-privs-dialog.vue:52
 msgid "Reference"
@@ -7813,7 +7810,7 @@ msgstr "拒绝"
 #: src/js/components/local/dns/dmarc-editor.vue:63
 #: src/js/components/local/dns/dmarc-editor.vue:74
 msgid "Relaxed"
-msgstr ""
+msgstr "休息"
 
 #: src/js/pages/admin/services.vue:93
 #: src/js/pages/user/system-info/_tables/services-info-table.vue:60
@@ -7917,8 +7914,6 @@ msgstr "删除认证"
 
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:106
 #: src/js/pages/user/email/_components/modify-forwarder-dialog.vue:35
-#, fuzzy
-#| msgid "Destination:"
 msgid "Remove Destination"
 msgstr "收信者"
 
@@ -7943,9 +7938,6 @@ msgid "Remove Filter"
 msgstr "删除过滤器"
 
 #: src/js/pages/user/email/_components/create-forwarder-dialog.vue:30
-#, fuzzy
-#| msgid "Create Forwarder"
-#| msgid_plural "Create Forwarders"
 msgid "Remove Forwarder"
 msgstr "创建转发器"
 
@@ -8033,7 +8025,7 @@ msgstr "替换已存在的文件:"
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:62
 msgid "Replace expired/invalid certificates with Let's Encrypt ones"
-msgstr ""
+msgstr "用 Let's Encrypt 证书替换过期/无效证书"
 
 #: src/js/pages/user/messages/_tables/tickets.vue:2
 #: src/js/pages/reseller/tickets.vue:28
@@ -8077,7 +8069,7 @@ msgstr "请求的页面取决于一个或多个被拒绝的命令"
 
 #: src/js/modules/router/before-each.js:27
 msgid "Requested page doesn't belong to your authority level"
-msgstr ""
+msgstr "您没有权限请求此页面"
 
 #: src/js/pages/user/security-questions.vue:91
 msgid ""
@@ -8611,7 +8603,6 @@ msgid "Security Settings"
 msgstr "安全设置"
 
 #: src/js/pages/admin/brute-force-monitor/index.vue:76
-#, fuzzy
 msgid "Seek should be smaller than %{ size }"
 msgstr "Seek应小于%{ size }"
 
@@ -9001,7 +8992,7 @@ msgstr "设为默认"
 
 #: src/js/pages/user/email/catch-all.vue:1
 msgid "Set Catch All E-mail"
-msgstr ""
+msgstr "设置捕捉所有电子邮件"
 
 #: src/js/pages/user/cronjobs/index.vue:80
 msgid "Set E-mail"
@@ -9183,7 +9174,7 @@ msgstr "不应包含特殊字符"
 
 #: src/js/pages/user/redirects.vue:96
 msgid "Should start with a forward flash \"/\""
-msgstr ""
+msgstr "应该以前 \"/\" 开头"
 
 #: src/js/components/global/input/input-password.vue:27
 #: src/js/pages/user/stats/log.vue:31
@@ -9295,7 +9286,7 @@ msgstr "显示整个文件"
 #: src/js/components/local/app-global-modals/skin-options.vue:31
 #: src/js/pages/reseller/customize-skin/_components/misc-options.vue:12
 msgid "Sidebar"
-msgstr ""
+msgstr "侧边栏"
 
 #: src/js/pages/user/email/accounts/index.vue:141
 #: src/js/pages/user/email/accounts/index.vue:158
@@ -9422,7 +9413,7 @@ msgstr "跳过的IP/用户"
 
 #: src/js/pages/reseller/customize-skin/_components/adsense.vue:16
 msgid "Slot"
-msgstr ""
+msgstr "缝隙"
 
 #: src/js/pages/user/email/_components/show-smtp-log-dialog.vue:6
 #: src/js/pages/user/email/accounts/index.vue:55
@@ -9732,11 +9723,11 @@ msgstr "存于备份中"
 #: src/js/components/local/dns/dmarc-editor.vue:64
 #: src/js/components/local/dns/dmarc-editor.vue:75
 msgid "Strict"
-msgstr ""
+msgstr "严格"
 
 #: src/js/pages/user/email/lists/modify.vue:222
 msgid "Strip"
-msgstr ""
+msgstr "剥离"
 
 #: src/js/pages/reseller/customize-skin/_components/adsense.vue:20
 msgid "Style"
@@ -10093,7 +10084,7 @@ msgstr "仅使用文本附件以提高安全性。"
 #: src/js/pages/admin/mail-queue/index.vue:23
 #: src/js/pages/admin/mail-queue/index.vue:57
 msgid "Thaw"
-msgstr ""
+msgstr "解冻"
 
 #: src/js/pages/admin/ip-manager/_dialogs/link-ip-dialog.vue:55
 msgid ""
@@ -10102,30 +10093,35 @@ msgid ""
 "checkbox won't touch the DNS or httpd.conf files, but future httpd.cont "
 "rewrites will have the linked IP added."
 msgstr ""
+"“应用到已有域名” 的选项将触发httpd.conf重写A/AAAA记录并将其插入本地DNS区域。"
+"禁用此复选框不会触碰DNS或httpd.conf格式文件，但未来httpd.续重写将添加链接的"
+"IP。"
 
 #: src/js/pages/user/email/usage/index.vue:195
 msgid ""
 "The \"From\" value set in the email header. This value should not be "
 "considered as accurate, as a sender can specify any value they wish."
 msgstr ""
+"邮件标题中设置的 \"发件人 \"值。这个值不应该被认为是准确的，因为发件人可以指"
+"定任何他们想要的值。"
 
 #: src/js/pages/user/login-keys/create.vue:193
 msgid ""
 "The ALL_USER type commands are replaced with all commands the User is "
 "allowed, at that level."
-msgstr ""
+msgstr "ALL_USER类型的命令被替换为该级别用户允许的所有命令。"
 
 #: src/js/pages/user/two-step-auth.vue:35
 msgid "The App will show you a code, which you'll use to Login to DirectAdmin."
-msgstr ""
+msgstr "App会给你显示一个代码，你可以用它来登录到DirectAdmin。"
 
 #: src/js/pages/user/email/catch-all.vue:41
 msgid "The e-mail is dropped and completely ignored"
-msgstr ""
+msgstr "邮件被删除,请忽略"
 
 #: src/js/pages/user/email/spamassassin.vue:376
 msgid "The format is the same as the E-mail Blacklist"
-msgstr ""
+msgstr "这个格式和Email Blacklist 黑名单一致"
 
 #: src/js/pages/user/login-keys/index.vue:117
 msgid "The login username used will still be your normal DA username."
@@ -10133,15 +10129,15 @@ msgstr "使用Key登陆时，登陆用户名与当前DA用户名相同。"
 
 #: src/js/pages/user/login-keys/create.vue:191
 msgid "The priorities for allow and deny are"
-msgstr ""
+msgstr "允许和拒绝的优先权"
 
 #: src/js/pages/user/email/catch-all.vue:24
 msgid "The sender is notified that the address doesn't exist"
-msgstr ""
+msgstr "发件人被告知该地址已不存在"
 
 #: src/js/components/local/dns/spf-editor.vue:7
 msgid "The SPF record for this domain replaces the current record."
-msgstr ""
+msgstr "该域名的SPF记录将取代当前记录。"
 
 #: src/js/pages/admin/custom-httpd/customize.vue:161
 #: src/js/pages/admin/custom-httpd/customize.vue:167
@@ -10172,7 +10168,7 @@ msgstr "此按钮将会移除SpamAssassin学习了的数据。"
 
 #: src/js/pages/admin/ssl/_components/settings-dialog.vue:64
 msgid "This could replace paid EV certificates"
-msgstr ""
+msgstr "这可能会取代付费的EV SSL 证书"
 
 #: src/js/pages/user/email/catch-all.vue:12
 msgid ""
@@ -10180,6 +10176,9 @@ msgid ""
 "that doesn't exist) to your site. This address may be your "
 "defaultusername@yourdomain.com, or any other email account you have created."
 msgstr ""
+"这个电子邮件地址将捕捉到所有不正确地址的邮件（即发给不存在的用户）到您的网"
+"站。这个地址可以是您的defaultusername@yourdomain.com，也可以是您创建的任何其"
+"他电子邮件帐户。"
 
 #: src/js/modules/router/before-each.js:71
 msgid "This feature has been disabled. Please, contact your administrator."
@@ -10196,7 +10195,7 @@ msgstr "此文件被标记为 \"最高安全级\"。要编辑此文件需要提�
 
 #: src/js/components/global/App.vue:12
 msgid "This is a Trial License of DirectAdmin"
-msgstr ""
+msgstr "这是DirectAdmin的试用许可证"
 
 #: src/js/pages/user/email/spamassassin.vue:372
 msgid ""
@@ -10214,6 +10213,8 @@ msgid ""
 "increase the server load due to spam, so having them disable is highly "
 "recommended unless you absolutely need the feature on."
 msgstr ""
+"这是建议使用的Catch-all设置的选项。Catch-all's会因为垃圾邮件而增加服务器的负"
+"载，所以强烈建议关闭它们，除非你绝对需要这个功能。"
 
 #: src/js/pages/user/email/usage/index.vue:39
 #: src/js/pages/user/email/usage/php-scripts.vue:30
@@ -10232,6 +10233,9 @@ msgid ""
 "The license will automatically update to the next time period when the key’s "
 "expiry nears."
 msgstr ""
+"该部分许可证是指在实际密钥中设定的日期以外的未来某一个真正的到期日的许可"
+"证。\n"
+"当密钥的到期日临近时，该许可证将自动更新到下一个时间段。"
 
 #: src/js/pages/admin/license.vue:98
 msgid ""
@@ -10239,6 +10243,8 @@ msgid ""
 "into the future than is set in the physical key. The license will "
 "automatically update to the next time period when the key’s expiry nears."
 msgstr ""
+"该部分许可证是指在实际密钥中设定的日期以外的未来某一个真正的到期日的许可证。"
+"当密钥的到期日临近时，该许可证将自动更新到下一个时间段。"
 
 #: src/js/components/local/inputs/input-week-day.vue:27
 msgid "Thursday"
@@ -10292,12 +10298,16 @@ msgid ""
 "To use it, paste the Signed Certificate on \"Paste a pre-generated "
 "certificate and key\" tab and click \"Save\"."
 msgstr ""
+"要使用它，请在 \"粘贴预生成的证书和密钥 \"选项卡上粘贴已签名的证书，然后点击 "
+"\"保存\"。"
 
 #: src/js/pages/user/two-step-auth.vue:34
 msgid ""
 "To use this feature, download the Google Authenticator App for your phone "
 "(or equivalent), and scan in the QR code."
 msgstr ""
+"要使用此功能，请下载手机上的Google Authenticator App（或同等版本），并扫描QR"
+"码。"
 
 #: src/js/components/local/create-message-dialog.vue:13
 #: src/js/components/local/send-user-message-dialog.vue:7
@@ -10362,7 +10372,7 @@ msgstr "跟踪器流已关闭！"
 
 #: src/js/pages/admin/stats.vue:291
 msgid "Transmitted"
-msgstr ""
+msgstr "传送"
 
 #: src/js/pages/user/filemanager/index.vue:92
 msgid "Tree View"
@@ -10745,7 +10755,7 @@ msgstr "使用服务器的证书"
 msgid ""
 "Use this server to handle my e-mails. If not, change the MX records and "
 "uncheck this option."
-msgstr ""
+msgstr "使用此服务器来处理我的邮件。如果没有，请更改MX记录，并取消选中此选项。"
 
 #: src/js/pages/admin/stats.vue:293 src/js/pages/admin/stats.vue:300
 msgid "Used"
@@ -11045,6 +11055,7 @@ msgid ""
 "Valid values are an E-mail address, your DA username: admin, or a blank "
 "field to prevent any e-mail."
 msgstr ""
+"有效值是E-mail地址，你的DA用户名：admin，或者是空白字段以防止任何邮件。"
 
 #: src/js/pages/admin/license.vue:137
 msgid "Validate License"
@@ -11280,7 +11291,7 @@ msgstr "你希望使用哪种反垃圾邮件的级别?"
 #: src/js/pages/admin/backups/_components/crons-table.vue:9
 #: src/js/pages/reseller/backups/index.vue:25
 msgid "When"
-msgstr ""
+msgstr "当"
 
 #: src/js/pages/admin/backups/restore.vue:211
 msgid ""
@@ -11297,6 +11308,8 @@ msgid ""
 "queue. It may take up to 1 minute before the processing starts, and an "
 "unknown amount of time, depending on the number of websites present."
 msgstr ""
+"当设置好后，添加链接任务会在后台通过task.queue进行处理。处理完成可能需要1分钟"
+"或更多时间，这取决于服务器中的网站数量."
 
 #: src/js/pages/admin/backups/_components/crons-table.vue:3
 #: src/js/pages/admin/backups/_components/current-backups-table.vue:2
