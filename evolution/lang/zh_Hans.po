@@ -3415,7 +3415,10 @@ msgstr "关于DirectAdmin"
 #: src/js/components/local/layouts/nav-grid/footer.vue:10
 #: src/js/components/local/layouts/simple/footer.vue:25
 msgid "DirectAdmin Web Control Panel © %{ year } JBMC Software"
-msgstr "DirectAdmin Web Control Panel © %{ year } JBMC Software"
+msgstr ""
+"DirectAdmin主机控制面板 © %{ year } 加拿大 JBMC Software | <a class=\"white"
+"\" href=\"http://www.hostsoft.cn/hosting-control-panel/directadmin\" target="
+"\"_blank\">主机软件(中国)</a>"
 
 #: src/js/pages/admin/backups/_components/backup-restore-settings-dialog.vue:47
 msgid "directadmin.conf values"

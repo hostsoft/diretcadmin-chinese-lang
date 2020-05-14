@@ -1,60 +1,70 @@
 
 # DirectAdmin Enhanced/Evolution 简体中文语言包
-  
-我们从2007年开始提供DirectAdmin授权相关的服务  
-语言包均为原创翻译  
-原本仅提供给我们授权的客户内部使用的, 现在免费提供给公众客户使用
 
-## 如果有需要购买DirectAdmin授权  
-## 请在我们的官方网站[成立于2007年的主机软件官方网站购买](http://www.hostsoft.cn)
+**2020年5月,DA官方已经将Evolution作为默认风格,我们已升级至支持最新**
 
+本语言包均为 [主机软件](http://www.hostsoft.cn "主机软件") 原创手工混合翻译 (部分由Deepl.com机器翻译和Poedit建议自动完成)
+原本仅提供给购买我们授权的客户内部使用的, 现在免费提供给非授权的公众客户使用
+**因为一些原因我们Github库可能未及时更新,请见谅**
+授权客户可以在QQ群或者客户中心下载,没影响
+
+## DirectAdmin授权
+
+我们从**2007**年开始提供cPanel/DirectAdmin/WHMCS/Solusvm/Onapp授权以及定制和周边开发相关的服务
+如果有需要购买 DirectAdmin License的,找我们,老品牌不跑路,修改授权IP随叫随到
+请在我们的官方网站 [点击这里到成立于2007年的主机软件官方网站购买](http://www.hostsoft.cn)
 
 ## 当前版本
 * DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.604`  系列
-* DirectAdmin 中文语言 版本  1.604 系列
+* DirectAdmin 中文语言 版本  1.604
 
-我们会一直与官方同步  
-最后更新 2020/05/13 
-  
- ![](directadmin.png)
+我们会一直与官方同步,最后更新 2020/05/13
 
-  
-## 安装教程, Git方式
-```sh
-
-安装明天写,太晚了......
+## 截图预览
+| Enhanced风格  | Evolution风格(DA默认)  |
+| :------------: | :------------: |
+|  ![Enh](da_enhanced.png "Enh")  | ![Evo](da_evolution.png "Evo")  |
 
 
+## 安装方式
+```bash
 
-
+#### Install Git / 安装 GIT
 yum install -y git
 
-mkdir -p /usr/local/directadmin/data/skins/hostsoft
-cd /usr/local/directadmin/data/skins/hostsoft
-git clone https://github.com/hostsoft/diretcadmin-chinese-lang ./
-
-
+#### clean old lang files / 删除旧的文件
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
+rm -rf /usr/local/directadmin/data/skins/evolution/lang/zh_Hans
+rm -rf /usr/local/directadmin/data/skins/evolution/lang/login-zh_Hans.*
+rm -rf /usr/local/directadmin/data/skins/evolution/lang/zh_Hans.*
 
 
-cd /usr/local/directadmin/data/skins/enhanced/lang/
-git clone https://github.com/ninetian/diretcadmin-chinese-lang cn
-chown diradmin:diradmin -R cn
+#### Clone lang package / 克隆我们的语言包
+cd /opt
+[ -d "/opt/hostsoft" ] && rm -rf /opt/hostsoft
+git clone https://github.com/hostsoft/diretcadmin-chinese-lang hostsoft
+
+#### Copy File / 复制文件
+
+##### Enhanced / 风格中文语言包
+cp -Rp /opt/hostsoft/enhanced/lang/cn /usr/local/directadmin/data/skins/enhanced/lang/
+
+##### Evolution / 风格中文语言包
+cp -Rp /opt/hostsoft/evolution/lang/zh_Hans.* /usr/local/directadmin/data/skins/evolution/lang/
+cp -Rp /opt/hostsoft/evolution/lang/login-zh_Hans.* /usr/local/directadmin/data/skins/evolution/lang/
+cp -Rp /opt/hostsoft/evolution/lang/zh_Hans /usr/local/directadmin/data/skins/evolution/lang/
+
+#### Modify permission / 修改文件权限
+chown diradmin:diradmin -R /usr/local/directadmin/data/skins/enhanced/
+chown diradmin:diradmin -R /usr/local/directadmin/data/skins/evolution/
+
+#### Bulk reset all user lang value / 批量设置所有用户为中文语言 (可选)
 perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
-```
 
-## 安装教程2 zip方式
-   注意替换版本号
-```sh
-rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
-cd /usr/local/directadmin/data/skins/enhanced/lang
-da_langver=1.55
-wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/${da_langver}.zip
-unzip ${da_langver}.zip
-rm -rf ${da_langver}.zip
-mv diretcadmin-chinese-lang-${da_langver} cn
-chown diradmin:diradmin -R cn
-perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
+
+
+
+
 ```
 
 
