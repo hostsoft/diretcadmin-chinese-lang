@@ -1,7 +1,7 @@
 
 # DirectAdmin Enhanced/Evolution 简体中文语言包	  
 
-**2020年5月,DA官方已经将Evolution作为默认风格,我们已升级至支持最新**	    
+**2020年5月,DA官方已经将Evolution作为默认风格,我们已升级至支持最新的版本**	    
   
 本语言包均为 [主机软件](http://www.hostsoft.cn "主机软件") 原创手工混合翻译 (部分由Deepl.com机器翻译和Poedit建议自动完成)	  
 原本仅提供给购买我们授权的客户内部使用的, 现在免费提供给非授权的公众客户使用	  
@@ -15,10 +15,10 @@
 请在我们的官方网站 [点击这里到成立于2007年的主机软件官方网站购买](http://www.hostsoft.cn)	    
   
 ## 当前版本	
-* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.604`  系列
-* DirectAdmin 中文语言 版本  1.604
+* DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.61.5`  系列
+* DirectAdmin 中文语言 版本  1.61.5
 
-我们会一直与官方同步,最后更新 2020/05/13
+我们会一直与官方同步,最后更新 2021/02/09
 
 ## 截图预览
 | Enhanced风格  | Evolution风格(DA默认)  |
