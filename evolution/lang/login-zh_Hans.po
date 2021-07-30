@@ -9,52 +9,57 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/js/login/Login.vue:51
+#: src/js/login/Login.vue:44
 msgid "← Back to the login page"
 msgstr "← 返回到登录页"
 
-#: src/js/login/components/two-step-auth.vue:35
+#: src/js/login/components/two-step-auth.vue:47
 msgid "Authenticate"
 msgstr "验证"
 
-#: src/js/login/Login.vue:42
-msgid "Click here"
-msgstr "点击此处"
+#: src/js/login/components/two-step-auth.vue:11
+msgid "Code"
+msgstr "代码"
 
-#: src/js/login/components/send-code.vue:12
+#: src/js/login/components/send-code.vue:16
 msgid "Code from E-mail"
 msgstr "邮箱收到的代码"
 
-#: src/js/login/components/login-datetime.vue:3
+#: src/js/login/components/login-datetime.vue:6
 msgid "Computer or server time out of sync by %{ hours } hours."
 msgstr "计算机或服务器时间不同步, 时差 %{ hours } 小时。"
 
 #: src/js/login/components/send-message.vue:2
+#: src/js/login/components/send-message.vue:20
 msgid ""
 "Enter your Username and a confirmation link will be sent to your email "
 "account."
 msgstr "输入您的用户名，验证链接将发送到您的电子邮件帐户。"
 
-#: src/js/login/Login.vue:36
+#: src/js/login/Login.vue:35
 msgid "Forgot Password?"
 msgstr "忘记密码？"
 
-#: src/js/login/components/login-datetime.vue:12
+#: src/js/login/components/login-datetime.vue:15
 msgid "format:datetime"
 msgstr "format:datetime"
 
-#: src/js/login/components/standard-auth.vue:27
+#: src/js/login/components/two-step-auth.vue:23
+msgid "Get the code from your phone's app, or use a backup scratch code."
+msgstr "从您的应用中获得一次性代码,或使用备份的代码进行恢复!"
+
+#: src/js/login/components/standard-auth.vue:41
 msgid "Hmm, login details do not seem to be correct. Please try again."
 msgstr "登陆信息似乎不正确。请重试."
 
 #: src/js/login/components/language-selector.vue:7
-msgid "Language"
-msgstr "语言"
+msgid "Language:"
+msgstr "语言:"
 
-#: src/js/login/components/send-code.vue:3
+#: src/js/login/components/send-code.vue:28
 msgid "Log In using your username and code from E-mail"
 msgstr "使用用户名及邮箱收到的代码登陆"
 
@@ -62,51 +67,61 @@ msgstr "使用用户名及邮箱收到的代码登陆"
 msgid "Logged in.."
 msgstr "登陆成功..."
 
-#: src/js/login/components/login-header.vue:6
-msgid "Manage your domains, databases & other server info."
-msgstr "轻松管理您的网站，数据库，和其他服务器以及软件功能."
-
-#: src/js/login/components/standard-auth.vue:17
+#: src/js/login/components/standard-auth.vue:25
 msgid "Password"
 msgstr "密码"
 
-#: src/js/login/components/standard-auth.vue:9
+#: src/js/login/components/send-code.vue:10
+#: src/js/login/components/send-message.vue:13
+#: src/js/login/components/standard-auth.vue:16
 msgid "Please enter username"
 msgstr "请输入用户名"
 
-#: src/js/login/components/send-code.vue:26
+#: src/js/login/components/standard-auth.vue:32
+msgid "Please enter your password"
+msgstr "请输入密码"
+
+#: src/js/login/components/send-code.vue:44
 msgid "Request New Password"
 msgstr "申请新密码"
 
-#: src/js/login/components/send-message.vue:14
+#: src/js/login/components/send-message.vue:30
 msgid "Send me a Link"
 msgstr "发送验证链接"
 
-#: src/js/login/components/standard-auth.vue:39
-msgid "Sign in to Account"
-msgstr "登录帐户"
+#: src/js/login/components/standard-auth.vue:56
+msgid "Sign in"
+msgstr "登录"
 
-#: src/js/login/components/login-header.vue:3
-msgid "Start DirectAdmin"
-msgstr "登陆 DirectAdmin"
-
-#: src/js/login/components/security-question-auth.vue:13
+#: src/js/login/components/security-question-auth.vue:27
 msgid "Submit Answer"
 msgstr "提交答案"
 
-#: src/js/login/Login.vue:12
-msgid "This is a Trial License of DirectAdmin"
-msgstr "这是一份 DirectAdmin 试用授权"
-
-#: src/js/login/components/two-step-auth.vue:16
+#: src/js/login/components/two-step-auth.vue:35
 msgid "Trust this device for %{ days } days"
 msgstr "信任此设备 %{ days } 天"
 
-#: src/js/login/components/two-step-auth.vue:3
+#: src/js/login/components/two-step-auth.vue:4
 msgid "Two Step Authentication"
 msgstr "二步身份验证"
 
-#: src/js/login/components/send-code.vue:6
+#: src/js/login/components/send-code.vue:3
 #: src/js/login/components/send-message.vue:5
+#: src/js/login/components/standard-auth.vue:9
 msgid "Username"
-msgstr "用户名"
+msgstr "账户"
+
+#~ msgid "Click here"
+#~ msgstr "点击此处"
+
+#~ msgid "Manage your domains, databases & other server info."
+#~ msgstr "管理域名，数据库，和其他服务器信息."
+
+#~ msgid "Sign in to Account"
+#~ msgstr "登录帐户"
+
+#~ msgid "Start DirectAdmin"
+#~ msgstr "启动 DirectAdmin"
+
+#~ msgid "This is a Trial License of DirectAdmin"
+#~ msgstr "这是一份 DirectAdmin 试用授权"
