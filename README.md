@@ -17,9 +17,9 @@
   
 ## 当前版本	
 * DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=1.62.4)   系列
-* DirectAdmin 中文语言 版本  **1.62.4**
+* DirectAdmin 中文语言 版本  **1.63.3**
 
-我们会一直与官方同步,最后更新 2021/07/30
+我们会一直与官方同步,最后更新 2021/12/24
 
 ## 截图预览
 | Enhanced风格  | Evolution风格(DA默认)  |

@@ -2,11 +2,11 @@
 
 #DateTime format
 msgid "format:datetime"
-msgstr "yyyy-M-d HH:mm"
+msgstr "yyyy-MM-dd HH:mm"
 
 #Date format
 msgid "format:date"
-msgstr "yyyy-M-d"
+msgstr "yyyy-MM-dd"
 
 #Week start
 msgid "format:weekStart"
