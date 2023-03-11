@@ -1,6 +1,9 @@
 
 # DirectAdmin Enhanced/Evolution 简体中文语言包	  
 
+> This Project Has been Closed， 本项目已终止，因为官方已默认提供中文版本语言包，所以本项目不再更新 ！
+
+
 **2020年5月,DA官方已经将Evolution作为默认风格,我们已升级至支持最新的版本**	 
 **特别注意: 2021年起, Enhanced模板的语言包不在更新**
   
