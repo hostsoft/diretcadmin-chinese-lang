@@ -16,7 +16,7 @@
 
 我们从**2007**年开始提供cPanel/DirectAdmin/WHMCS/Solusvm/Onapp授权以及定制和周边开发相关的服务	  
 如果有需要购买 DirectAdmin License的,找我们,老品牌不跑路,修改授权IP随叫随到	  
-请在我们的官方网站 [点击这里到成立于2007年的主机软件官方网站购买](http://www.hostsoft.cn)	    
+请在我们的官方网站 [点击这里到成立于2007年的主机软件官方网站购买](https://www.idcsoft.net)	    
   
 ## 当前版本	
 * DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=1.62.4)   系列
